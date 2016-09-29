@@ -1,0 +1,23 @@
+{
+  "camelcase": true,
+  "curly": true,
+  "eqeqeq":true,
+  "forin": false,
+  "immed": true,
+  "latedef": true,
+  "newcap": true,
+  "noarg": true,
+  "noempty": true,
+  "nonew": true,
+  "undef": true,
+  "unused": false,
+
+  "strict": true,
+  "globalstrict": true,
+  "trailing": true,
+  "eqnull": true,
+
+  "browser": false,
+  "devel": true,
+  "node": true
+}

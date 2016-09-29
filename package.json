@@ -1,0 +1,54 @@
+{
+  "name": "platform-common",
+  "version": "0.0.1",
+  "description": "Allmobilize Platform Model",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.yunshipei.net:platform-back/platform-common.git"
+  },
+  "keywords": [
+    "common",
+    "allmobilize"
+  ],
+  "author": "larry",
+  "license": "Allmobilize",
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-jshint": "*",
+    "grunt-jsbeautifier": "~0.2.6",
+    "mocha": "*"
+  },
+  "dependencies": {
+    "am-winston-remote": "*",
+    "async": "~0.9.0",
+    "colors": "~0.6.2",
+    "connect-mongo": "~0.4.1",
+    "debug": "~0.7.4",
+    "dnscache": "0.0.2",
+    "dotenv": "^0.4.0",
+    "fluent-logger": "^0.2.6",
+    "fs-extra": "~0.8.1",
+    "glob": "^4.0.5",
+    "heapdump": "^0.2.9",
+    "hiredis": "~0.1.16",
+    "isstream": "^0.1.0",
+    "lodash": "~2.4.1",
+    "moment": "~2.5.0",
+    "nodemailer": "~0.6.1",
+    "optimist": "^0.6.1",
+    "passport": "latest",
+    "passport-local": "latest",
+    "q": "~0.9.7",
+    "qretry": "^0.2.1",
+    "redis": "~0.10.0",
+    "request": "~2.31.0",
+    "session-mongoose": "^0.5.1",
+    "uuid": "1.4.1",
+    "winston": "^0.8.1",
+    "winston-mongodb": "^0.5.3"
+  }
+}
